@@ -1,12 +1,17 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
 
 *{
     padding: 0px;
     margin: 0px;
 }
+:root{
+    --fonte-1: 'Patrick Hand', cursive;
+    --fonte-2: 'Supermercado One', cursive;
+}
 body{
-    font-family: 'Patrick Hand', cursive;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: black;
     color: white;
 }
@@ -15,16 +20,18 @@ header{
     color: black;
     text-align: center;
     padding: 10px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.349);
     min-width: 40vh;
 }
 header > h1{
     font-size: 30px;
+    font-family: var(--fonte-2);
 }
 header > p{
-   font-size: 26px; 
+   font-size: 26px;
+   font-family: var(--fonte-1);
 }
 nav{
+    font-family: var(--fonte-2);
     background-color: rgb(187, 187, 0);
     text-align: center;
     padding: 5px;
@@ -43,7 +50,7 @@ nav > a{
 }
 nav > a:hover{
     background-color: black;
-    color: white;
+    color: yellow;
     padding: 2px;
     border-radius: 20px;
 }
@@ -55,7 +62,8 @@ main{
     padding: 15px;
 }
 main > div > h1{
-    font-size: 26px;
+    font-family: var(--fonte-1);
+    font-size: 30px;
     padding: 10px;
     text-align: center;
 
@@ -74,7 +82,32 @@ main > div > h1{
     width: 90%;
     height: 90%;
 }
+img{
+    height: 300px;
+    width: 500px;
+}
+main p{
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 28px;
+}
+.categorias a{
+    text-decoration: none;
+    font-family: var(--fonte-1);
+    color: yellow;
+    transition-duration: .3s
+}
+.categorias a:hover{
+    background-color: yellow;
+    color: black;
+    border-radius: 10px;
+}
+#fps{
+    text-align: center;
+    margin: auto;
+}
 footer > p{
+    font-family: var(--fonte-2);
     background-color: yellow;
     color: black;
     text-align: center;
