@@ -12,7 +12,7 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.880);
     color: white;
 }
 header{
@@ -85,26 +85,24 @@ main > div > h1{
 img{
     height: 300px;
     width: 500px;
+    padding: 10px;
+    margin: 15px;
 }
 main p{
-    padding: 5px;
     border-radius: 20px;
     font-size: 28px;
 }
-.categorias a{
-    text-decoration: none;
-    font-family: var(--fonte-1);
-    color: yellow;
-    transition-duration: .3s
-}
-.categorias a:hover{
-    background-color: yellow;
-    color: black;
-    border-radius: 10px;
-}
-#fps{
+.categorias{
     text-align: center;
     margin: auto;
+}
+.categorias p{
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: auto;
+    font-family: var(--fonte-1);
+    color: black;
 }
 footer > p{
     font-family: var(--fonte-2);
