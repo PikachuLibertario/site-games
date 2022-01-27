@@ -91,7 +91,6 @@ img{
 }
 main p{
     border-radius: 20px;
-    font-size: 28px;
 }
 .categorias{
     text-align: center;
@@ -104,6 +103,7 @@ main p{
     margin: auto;
     font-family: var(--fonte-1);
     color: black;
+    font-size: 26px;
 }
 .games{
     text-align: center;
@@ -143,16 +143,17 @@ main p{
 }
 #aviso{
     font-family: var(--fonte-2);
-    font-size: 22px;
 }
 #aviso p{
     text-align: justify;
     color: white;
+    font-size: 20px;
 }
 #aviso h2{
+    font-size: 26px;
     text-align: center;
-    color: red;
-    text-decoration: underline;
+    color: white;
+    text-decoration: underline red;
 }
 footer > p{
     font-family: var(--fonte-2);
