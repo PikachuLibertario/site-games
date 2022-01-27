@@ -15,13 +15,14 @@ body{
     background-color: rgba(0, 0, 0, 0.880);
     color: white;
     min-height: 100vh;
+    min-width: 90vw;
 }
 header{
     background-color: rgba(255, 255, 0, 0.925);
     color: black;
     text-align: center;
     padding: 10px;
-    min-width: 40vh;
+
 }
 header > h1{
     font-size: 30px;
@@ -37,12 +38,10 @@ nav{
     text-align: center;
     padding: 5px;
     box-shadow: 4px 2px 3px black;
-    font-size: 20px;
     margin-bottom: 20px;
-    min-width: 45vh;
 }
 nav > a{
-    font-size: 1.2em;
+    font-size: 18px;
     text-decoration: none;
     font-weight: bold;
     color: black;
@@ -57,7 +56,7 @@ nav > a:hover{
 }
 main{
     min-width: 320px;
-    max-width: 800px;
+    max-width: 700px;
     margin: auto;
     margin-bottom: 30px;
     padding: 15px;
@@ -70,7 +69,7 @@ main > div > h1{
 
 }
 .video{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.500);
     margin: 0px -20px 30px -20px;
     padding: 15px;
     position: relative;
@@ -84,8 +83,9 @@ main > div > h1{
     height: 90%;
 }
 img{
-    height: 300px;
-    width: 500px;
+    /*configuração para imagem se ajustar conforme a tela*/
+    max-height: 90%;
+    max-width: 90%;
     padding: 10px;
     margin: 15px;
 }
@@ -114,13 +114,15 @@ main p{
 .games p{
     font-size: 22px;
     padding: 15px;
+    text-align: left;
 }
 .download{
     text-align: center;
     margin: auto;
     width: 200px;
     background-color: yellow;
-    padding: 5px;
+    padding: 10px;
+    border-radius: 20px;
 }
 .download a{
     text-decoration: none;
@@ -132,7 +134,7 @@ main p{
 .download a:hover{
     background-color: black;
     color: yellow;
-    padding: 5px;
+    padding: 6px;
     border-radius: 20px;
     text-decoration: underline;
 }
