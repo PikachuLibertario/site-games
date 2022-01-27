@@ -88,6 +88,7 @@ img{
     max-width: 90%;
     padding: 10px;
     margin: 15px;
+    transition-duration: .3s
 }
 main p{
     border-radius: 20px;
@@ -104,6 +105,10 @@ main p{
     font-family: var(--fonte-1);
     color: black;
     font-size: 26px;
+}
+.categorias img:hover{
+    border: solid 5px red;
+    padding: 0px;
 }
 .games{
     text-align: center;
