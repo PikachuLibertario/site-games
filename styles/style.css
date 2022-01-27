@@ -104,6 +104,52 @@ main p{
     font-family: var(--fonte-1);
     color: black;
 }
+.games{
+    text-align: center;
+    margin: auto;
+    font-family: var(--fonte-1);
+    font-size: 18px;
+}
+.games p{
+    font-size: 22px;
+    padding: 15px;
+}
+.download{
+    text-align: center;
+    margin: auto;
+    width: 200px;
+    background-color: yellow;
+    padding: 10px;
+}
+.download a{
+    text-decoration: none;
+    font-size: 26px;
+    margin: 10px;
+    transition-duration: .3s
+}
+.download a:hover{
+    background-color: black;
+    color: yellow;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: underline;
+}
+.tutorial{
+    padding: 10px;
+}
+#aviso{
+    font-family: var(--fonte-2);
+    font-size: 22px;
+}
+#aviso p{
+    text-align: justify;
+    color: white;
+}
+#aviso h2{
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+}
 footer > p{
     font-family: var(--fonte-2);
     background-color: yellow;
