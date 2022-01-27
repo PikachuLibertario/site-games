@@ -126,7 +126,7 @@ main p{
 }
 .download a{
     text-decoration: none;
-    font-size: 26px;
+    font-size: 20px;
     margin: 10px;
     transition-duration: .3s;
     color: black;
