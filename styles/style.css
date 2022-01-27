@@ -88,7 +88,7 @@ img{
     max-width: 90%;
     padding: 10px;
     margin: 15px;
-    transition-duration: .3s
+    transition-duration: .5s
 }
 main p{
     border-radius: 20px;
@@ -107,7 +107,7 @@ main p{
     font-size: 26px;
 }
 .categorias img:hover{
-    border: solid 5px red;
+    border: solid 1px red;
     padding: 0px;
 }
 .games{
