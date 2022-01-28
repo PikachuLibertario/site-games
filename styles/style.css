@@ -19,7 +19,11 @@ body{
 }
 header{
     background-color: rgba(255, 255, 0, 0.925);
-    height: 120px;
+    background-image: url("https://raw.githubusercontent.com/PikachuLibertario/site-games-imagens/main/background.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 160px;
     color: black;
     text-align: center;
     padding: 20px;
@@ -30,10 +34,16 @@ header > h1{
     margin-top: 20px;
     font-size: 30px;
     font-family: var(--fonte-2);
+    background-color: rgba(255, 255, 255, 0.800);
+    padding: 5px;
+    margin-bottom: 20px;
 }
 header > p{
    font-size: 26px;
-   font-family: var(--fonte-1);
+   font-family: var(--fonte-2);
+   background-color: rgba(255, 255, 255, 0.800);
+   padding: 5px;
+   margin-bottom: 30px;
 }
 nav{
     font-family: var(--fonte-2);
@@ -162,6 +172,17 @@ main p{
     text-align: center;
     color: white;
     text-decoration: underline red;
+}
+.bottom a{
+    color: yellow;
+    font-size: 20px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.bottom a:hover{
+    text-decoration: underline;
 }
 footer > p{
     font-family: var(--fonte-2);
