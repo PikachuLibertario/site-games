@@ -150,10 +150,6 @@ main p{
     color: black;
 }
 .download a:hover{
-    background-color: black;
-    color: yellow;
-    padding: 6px;
-    border-radius: 20px;
     text-decoration: underline;
 }
 .tutorial{
