@@ -62,10 +62,7 @@ header > p{
     transition-duration: .3s;
 }
 .menu > a:hover{
-    background-color: black;
-    color: yellow;
-    padding: 2px;
-    border-radius: 20px;
+    border-bottom: 4px solid red;
 }
 main{
     min-width: 320px;
@@ -95,14 +92,16 @@ main > div > h1{
     width: 90%;
     height: 90%;
 }
+
 img{
     /*configuração para imagem se ajustar conforme a tela*/
     max-height: 90%;
     max-width: 90%;
-    padding: 10px;
+    padding: 5px;
     margin: 15px;
-    transition-duration: .5s
+    transition-duration: .1s;
 }
+
 main p{
     border-radius: 20px;
 }
@@ -110,7 +109,10 @@ main p{
     text-align: center;
     margin: auto;
 }
-.categorias p{
+.categorias img{
+    border-radius: 18%;
+}
+/*.categorias p{
     width: 50%;
     background-color: rgb(255, 255, 255);
     text-align: center;
@@ -119,9 +121,9 @@ main p{
     color: black;
     font-size: 26px;
 }
+*/
 .categorias img:hover{
-    border: solid 1px red;
-    padding: 0px;
+    background-color: red;
 }
 .games{
     text-align: center;
