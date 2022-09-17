@@ -143,7 +143,6 @@ main p{
 }
 .bottom{
     text-align: center;
-    margin: auto;
 }
 .download{
     text-align: center;
@@ -190,7 +189,7 @@ main p{
     text-decoration: none;
 }
 .bottom a:hover{
-    text-decoration: underline;
+    color: red;
 }
 footer > p{
     font-family: var(--fonte-2);
