@@ -143,6 +143,7 @@ main p{
 }
 .bottom{
     text-align: center;
+    margin: auto;
 }
 .download{
     text-align: center;
