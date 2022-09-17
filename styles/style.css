@@ -23,12 +23,9 @@ header{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 160px;
+    height: 200px;
     color: black;
-    text-align: center;
     padding: 20px;
-
-
 }
 header > h1{
     margin-top: 20px;
@@ -37,6 +34,7 @@ header > h1{
     background-color: rgba(255, 255, 255, 0.800);
     padding: 5px;
     margin-bottom: 20px;
+    text-align: center;
 }
 header > p{
    font-size: 26px;
@@ -44,10 +42,11 @@ header > p{
    background-color: rgba(255, 255, 255, 0.800);
    padding: 5px;
    margin-bottom: 30px;
+   text-align: center;
 }
 .menu{
     font-family: var(--fonte-2);
-    background-color: rgb(187, 187, 0);
+    background-color: gray;
     text-align: center;
     padding: 5px;
     box-shadow: 4px 2px 3px black;
@@ -62,7 +61,24 @@ header > p{
     transition-duration: .3s;
 }
 .menu > a:hover{
-    color: red;
+    color: white;
+}
+
+.pesquisa{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: gray;
+    text-align: center;
+    padding: 5px;
+}
+.pesquisa > a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    transition-duration: .3s;
+}
+.pesquisa > a:hover{
+    color: black;
 }
 main{
     min-width: 320px;
@@ -135,7 +151,7 @@ main p{
 .games p{
     font-size: 24px;
     padding: 15px;
-    text-align: justify;
+    text-align: left;
 }
 .games h2{
     text-align: center;
@@ -170,7 +186,7 @@ main p{
     font-family: 'Courier New', Courier, monospace;
 }
 #aviso p{
-    text-align: justify;
+    text-align: center;
     color: white;
     font-size: 24px;
 }
