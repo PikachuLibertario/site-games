@@ -19,66 +19,105 @@ body{
 }
 header{
     background-color: rgba(255, 255, 0, 0.925);
-    background-image: url("https://raw.githubusercontent.com/PikachuLibertario/site-games-imagens/main/background.png");
-    background-position: center center;
-    background-repeat: no-repeat;
+    /*background-image: url("https://raw.githubusercontent.com/PikachuLibertario/site-games-imagens/main/background.png");*/
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    /*background-repeat: no-repeat;*/
     background-size: cover;
-    height: 200px;
-    color: black;
+    /*height: 200px;*/
+    color: white;
     padding: 20px;
 }
 header > h1{
     margin-top: 20px;
     font-size: 30px;
     font-family: var(--fonte-2);
-    background-color: rgba(255, 255, 255, 0.800);
+    /*background-color: rgba(255, 255, 255, 0.800);*/
+    background-color: darkgreen;
     padding: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     text-align: center;
 }
 header > p{
    font-size: 26px;
    font-family: var(--fonte-2);
-   background-color: rgba(255, 255, 255, 0.800);
+   /*background-color: rgba(255, 255, 255, 0.800);*/
+   background-color: darkgreen;
    padding: 5px;
-   margin-bottom: 30px;
+   /*margin-bottom: 30px;*/
    text-align: center;
 }
-.menu{
-    font-family: var(--fonte-2);
-    background-color: gray;
+span#hamb{
+    /*background-color: gray;*/
+    background-color: black;
+    border-bottom: 1.5px solid green;
+    border-top: 1.5px solid green;
+    display: block;
+    /*color: black;*/
+    color: green;
     text-align: center;
-    padding: 5px;
-    box-shadow: 4px 2px 3px black;
-    margin-bottom: 20px;
-}
-.menu > a{
-    font-size: 18px;
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
     padding: 10px;
-    transition-duration: .3s;
+    cursor: pointer; /*muda o ponteiro do mouse para mão*/
 }
-.menu > a:hover{
+span#hamb:hover{
     color: white;
+}
+menu{
+    display: none;
 }
 
-.pesquisa{
-    font-family: 'Courier New', Courier, monospace;
+menu > ul{
+    list-style-type: none; /*tira as bolinhas*/
+}
+#itens{
+    /*background-color: rgba(255, 255, 255, 0.865);*/
+    /*background-color: rgba(0, 0, 0, 0.400);*/
+    /*background-color: black;*/
     background-color: gray;
     text-align: center;
-    padding: 5px;
-}
-.pesquisa > a{
-    text-decoration: none;
+    padding: 2px;
     font-size: 18px;
-    font-weight: bold;
+    margin-bottom: 10px;
+}
+menu a{
+    display: block;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    /*background-color: gray;*/
+    background-color:black;
+    border-radius: 5px;
+}
+#itens li{
+    margin-bottom: 2px;
+}
+#itens a{
+    text-decoration: none;
+    /*color: black;*/
     color: white;
+    padding: 5px;
     transition-duration: .3s;
 }
-.pesquisa > a:hover{
-    color: black;
+#itens a:hover{
+    color: green;
+    text-decoration: underline;
+}
+#recentes{
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+#recentes img{
+    margin-bottom: 10px;
+    width: 300px;
+    height: 150px;
+    transition-duration: .3s;
+}
+#recentes img:hover{
+    border-radius: 20px;
+    transform: translate(-1px,-10px);
+    transition: transform .3s;
+    box-shadow: 5px 5px 10px black;
 }
 main{
     min-width: 320px;
@@ -95,7 +134,7 @@ main > div > h1{
 
 }
 .video{
-    background-color: rgba(255, 255, 255, 0.500);
+    background-color: rgba(255, 255, 255, 0.050);
     margin: 0px -20px 30px -20px;
     padding: 15px;
     position: relative;
@@ -111,11 +150,11 @@ main > div > h1{
 
 img{
     /*configuração para imagem se ajustar conforme a tela*/
-    max-height: 90%;
-    max-width: 90%;
-    padding: 5px;
-    margin: 15px;
-    transition-duration: .1s;
+    /*max-height: 90%;*/
+    /*max-width: 90%;*/
+    /*padding: 5px;*/
+    /*margin: 15px;*/
+    /*transition-duration: .1s;*/
 }
 
 main p{
@@ -123,94 +162,170 @@ main p{
 }
 .categorias{
     text-align: center;
-    margin: auto;
 }
 .categorias img{
-    border-radius: 18%;
+    width: 300px;
+    height: 150px;
+    margin-bottom: 20px;
+    transition-duration: .3s;
 }
-/*.categorias p{
-    width: 50%;
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-    margin: auto;
-    font-family: var(--fonte-1);
-    color: black;
-    font-size: 26px;
-}
-*/
 .categorias img:hover{
-    background-color: red;
+    border-radius: 20px;
+        transform: translate(-1px,-10px);
+        transition: transform .3s;
+        box-shadow: 5px 5px 10px black;
 }
 .games{
     /*text-align: justify;*/
-    margin: auto;
+    /*margin: auto;*/
     /*font-family: var(--fonte-1);*/
-    font-family: 'Courier New', Courier, monospace;
+    /*font-family: 'Courier New', Courier, monospace;*/
     /*font-size: 18px;*/
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.games img{
+    height: 200px;
+    width: 320px;
+    margin-bottom: 20px;
 }
 .games p{
-    font-size: 24px;
+    font-size: 22px;
     padding: 15px;
-    text-align: left;
+    text-align: justify;
 }
 .games h2{
     text-align: center;
-    font-size: 26px;
+    font-size: 22px;
 }
 .bottom{
     text-align: center;
 }
-.download{
-    text-align: center;
-    margin: auto;
-    width: 200px;
-    background-color: yellow;
-    padding: 10px;
-    border-radius: 20px;
-}
-.download a{
-    text-decoration: none;
-    font-size: 20px;
-    margin: 10px;
-    transition-duration: .3s;
-    color: black;
-}
-.download a:hover{
-    text-decoration: underline;
-}
-.tutorial{
-    padding: 10px;
-}
-#aviso{
-    /*font-family: var(--fonte-2);*/
-    font-family: 'Courier New', Courier, monospace;
-}
-#aviso p{
-    text-align: center;
-    color: white;
-    font-size: 24px;
-}
-#aviso h2{
-    font-size: 26px;
-    text-align: center;
-    color: white;
-    text-decoration: underline red;
-}
 .bottom a{
-    color: yellow;
-    font-size: 20px;
+    color: green;
+    font-size: 16px;
     background-color: black;
     padding: 10px;
     border-radius: 20px;
     text-decoration: none;
 }
 .bottom a:hover{
-    color: red;
+    color: white;
+}
+.download{
+    text-align: center;
+    margin: auto;
+    width: 200px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+    transition-duration: .3s;
+}
+.download a{
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px;
+    transition-duration: .3s;
+    color: black;
+}
+.download:hover{
+    background-color: black;
+}
+.download a:hover{
+    font-weight: bolder;
+    color: green;
+}
+.tutorial{
+    padding: 10px;
+}
+#aviso{
+    /*font-family: var(--fonte-2);*/
+    /*font-family: 'Courier New', Courier, monospace;*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+#aviso p{
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+}
+#aviso h2{
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
 }
 footer > p{
     font-family: var(--fonte-2);
-    background-color: yellow;
-    color: black;
+    background-color: black;
+    color: green;
     text-align: center;
     font-size: 18px;
+}
+
+
+.conteiner{
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    width: auto;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    color:white;
+}
+.conteiner h2{
+    border-radius: 15px;
+    font-size: 24px;
+    background-color:black;
+    padding: 5px;
+}
+#jogos li{
+    display: none; /*esconde o elemento*/
+}
+#jogos a{
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    transition-duration: .3s;
+}
+#jogos a:hover{
+    text-decoration: underline;
+    color: rgb(3, 255, 3);
+}
+#jogos li{
+    list-style-type: none;
+}
+#nao-achado{
+    display: none;
+}
+#nao-achado > p{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    background-color: gray;
+    font-size: 20px;
+    color: red;
+    padding: 10px;
+    max-width: 320px;
+}
+#pesquisa{
+    width: 300px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 3px solid black;
+    margin-bottom: 10px;
+}
+#botao{
+    background-color: gray;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px;
+    cursor: pointer;
+}
+#botao:hover{
+    background-color: white;
 }

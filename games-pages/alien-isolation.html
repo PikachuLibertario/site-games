@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="shortcut icon" href="../logo.ico" type="image/x-icon">
     <title>Alien Isolation</title>
 </head>
@@ -13,43 +15,62 @@
         <h1>Uncensored Games</h1>
         <p>Os melhores jogos para computador em primeira mão!</p>
     </header>
-    <nav class="menu">
-        <a href="../index.html" target="_self">Página Inicial</a>
-        <a href="../categorias.html" target="_self" rel="next">Categorias</a>
-        <a href="https://www.youtube.com/channel/UCOAk3Cy1CuYaDvdmrvV97iA" target="_blank">Youtube</a>
-    </nav>
+    <span id="hamb" class="material-symbols-outlined" onclick="ClickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="../index.html" target="_self">Home</a></li>
+                <li><a href="../categorias.html" target="_self">Categorias</a></li>
+                <li><a href="https://www.youtube.com/channel/UCOAk3Cy1CuYaDvdmrvV97iA" target="_blank">Youtube</a></li>
+                <li><a href="../pergunta.html" target="_self">Perguntas</a></li>
+                <li><a href="../buscar.html" target="_self">Pesquisar</a></li>
+            </ul>
+        </menu>
     <main>
         <div class="games">
             <div id="b-07">
-                <h2>ALIEN ISOLATION</h2>
                 <picture>
                     <img src="https://raw.githubusercontent.com/PikachuLibertario/site-games-imagens/main/alien-isolation.png" alt="alien-isolation">
                 </picture>
-                <p>
-                    Descubra o verdadeiro significado do medo em Alien: Isolation, um horror de sobrevivência ambientado em uma atmosfera de medo constante e perigo mortal. Quinze anos após os eventos de Alien™, a filha de Ellen Ripley, Amanda entra em uma batalha desesperada pela sobrevivência, em uma missão para desvendar a verdade por trás do desaparecimento de sua mãe.
-                    Como Amanda, você navegará por um mundo cada vez mais volátil enquanto se vê confrontado por todos os lados por uma população em pânico e desesperada e um Alien imprevisível e implacável.
-                    Com pouca força e preparação, você deve coletar recursos, improvisar soluções e usar sua inteligência, não apenas para ter sucesso em sua missão, mas para simplesmente permanecer vivo.
-                    Supere uma ameaça mortal sempre presente Experimente o medo persistente enquanto um Alien verdadeiramente dinâmico e reativo usa seus sentidos para caçar você e responder a cada movimento seu.
-                    Improvisar para sobreviver Hackeie sistemas, procure recursos vitais e crie itens para lidar com cada situação. Você vai fugir de seus inimigos, distraí-los ou enfrentá-los de frente?
-                    Explore um mundo de mistério e traição Mergulhe no cenário detalhado de Sevastopol, uma estação comercial desativada à margem do espaço. Encontre um rico elenco de habitantes em um mundo marcado pelo medo e pela desconfiança.
-                    Quando deixou a Terra, Ellen Ripley prometeu à filha Amanda que voltaria para casa no seu 11º aniversário. Amanda nunca mais a viu.
-                    Quinze anos depois, Amanda, agora funcionária da Weyland-Yutani, fica sabendo que o gravador de voo do navio de sua mãe, o Nostromo, foi recuperado na remota estação comercial de Sevastopol. A tentação de ela finalmente entender o que aconteceu é demais para resistir. Quando a tripulação chega a Sebastopol, eles descobrem que algo está desesperadamente errado. Tudo parece estar conectado a uma ameaça desconhecida, perseguindo e matando nas sombras.
-                    Para descobrir a verdade sobre sua mãe, Amanda é forçada a enfrentar a mesma coisa aterrorizante que os separou.
-                </p>
+                <br><br>
+                <h2>ALIEN ISOLATION</h2>
+                <br>
+                    <p>
+                        Descubra o verdadeiro significado do medo em Alien: Isolation, um horror de sobrevivência ambientado em uma atmosfera de medo constante e perigo mortal. Quinze anos após os eventos de Alien™, a filha de Ellen Ripley, Amanda entra em uma batalha desesperada pela sobrevivência, em uma missão para desvendar a verdade por trás do desaparecimento de sua mãe.
+                    </p>
+                    <br>
+                    <p>
+                        Como Amanda, você navegará por um mundo cada vez mais volátil enquanto se vê confrontado por todos os lados por uma população em pânico e desesperada e um Alien imprevisível e implacável.
+                        Com pouca força e preparação, você deve coletar recursos, improvisar soluções e usar sua inteligência, não apenas para ter sucesso em sua missão, mas para simplesmente permanecer vivo.
+                    </p>
+                    <br>
+                    <p>
+                        Supere uma ameaça mortal sempre presente Experimente o medo persistente enquanto um Alien verdadeiramente dinâmico e reativo usa seus sentidos para caçar você e responder a cada movimento seu.
+                        Improvisar para sobreviver Hackeie sistemas, procure recursos vitais e crie itens para lidar com cada situação. Você vai fugir de seus inimigos, distraí-los ou enfrentá-los de frente?
+                        Explore um mundo de mistério e traição Mergulhe no cenário detalhado de Sevastopol, uma estação comercial desativada à margem do espaço. Encontre um rico elenco de habitantes em um mundo marcado pelo medo e pela desconfiança.
+                    </p>
+                    <br>
+                    <p>
+                        Quando deixou a Terra, Ellen Ripley prometeu à filha Amanda que voltaria para casa no seu 11º aniversário. Amanda nunca mais a viu.
+                        Quinze anos depois, Amanda, agora funcionária da Weyland-Yutani, fica sabendo que o gravador de voo do navio de sua mãe, o Nostromo, foi recuperado na remota estação comercial de Sevastopol. A tentação de ela finalmente entender o que aconteceu é demais para resistir. Quando a tripulação chega a Sebastopol, eles descobrem que algo está desesperadamente errado. Tudo parece estar conectado a uma ameaça desconhecida, perseguindo e matando nas sombras.
+                        Para descobrir a verdade sobre sua mãe, Amanda é forçada a enfrentar a mesma coisa aterrorizante que os separou.
+                    </p>
                 <p>
                     Requisitos Mínimos:<br>
-                    SO: Windows 7 (32bit)<br>
-                    Processador: 3.16Ghz Intel Core 2 Duo E8500<br>
-                    Memória RAM: 4 GB RAM<br>
-                    Espaço livre em disco: 35 GB<br>
-                    DirectX: Versão 11<br>
+                    Sistema Operacional: Windows 7 (32bit)<br>
+                    Processador: 3,16Ghz Intel Core 2 Duo E8500<br>
+                    Memória RAM: 4 GB<br>
+                    DirectX: 11<br>
+                    Espaço em Disco: 35 GB<br>
                 </p>
+                <br><br>
                 <h2>COMO INSTALAR + GAMEPLAY:</h2>
+                <br>
                 <div class="video">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/dTa4nBeTwBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
+                <br>
                 <div class="download">
-                    <a href="https://mega.nz/file/wkpC1LzJ#wEIY5eE66g4tx4pkln5vVwFdAFmja6UmS5RrxaT5-Lc" target="_blank">DOWNLOAD</a>
+                    <a href="https://stfly.me/ohRPxylC" target="_blank">BAIXAR JOGO</a>
                 </div>
             </div>
             <br><br>
@@ -58,6 +79,7 @@
                 </div>
         </div>
     </main>
+    <script src="../script/muda-tela.js"></script>
     <footer>
         <p>
             Criado por &copy;Uncensored Games para o mundo

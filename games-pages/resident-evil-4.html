@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
     <link rel="shortcut icon" href="../logo.ico" type="image/x-icon">
     <title>Resident Evil 4 HD Edition</title>
 </head>
@@ -13,29 +15,36 @@
         <h1>Uncensored Games</h1>
         <p>Os melhores jogos para computador em primeira mão!</p>
     </header>
-    <nav class="menu">
-        <a href="../index.html" target="_self">Página Inicial</a>
-        <a href="../categorias.html" target="_self" rel="next">Categorias</a>
-        <a href="https://www.youtube.com/channel/UCOAk3Cy1CuYaDvdmrvV97iA" target="_blank">Youtube</a>
-    </nav>
+    <span id="hamb" class="material-symbols-outlined" onclick="ClickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="../index.html" target="_self">Home</a></li>
+                <li><a href="../categorias.html" target="_self">Categorias</a></li>
+                <li><a href="https://www.youtube.com/channel/UCOAk3Cy1CuYaDvdmrvV97iA" target="_blank">Youtube</a></li>
+                <li><a href="../pergunta.html" target="_self">Perguntas</a></li>
+                <li><a href="../buscar.html" target="_self">Pesquisar</a></li>
+            </ul>
+        </menu>
     <main>
         <div class="games">
             <div id="f-01">
-                <h2>RESIDENT EVIL 4 HD</h2>
                 <picture>
                     <img src="https://raw.githubusercontent.com/PikachuLibertario/site-games-imagens/main/resident-evil-4.png" alt="resident evil 4">
                 </picture>
+                <br><br>
+                <h2>RESIDENT EVIL 4 HD</h2>
+                <br>
                 <p>
                     Em resident evil 4, o agente especial Leon S. Kennedy é enviado em uma missão para resgatar a filha do presidente dos EUA que foi sequestrada. Encontrando seu caminho para uma vila rural na Europa, ele enfrenta novas ameaças que são um desvio dos tradicionais inimigos zumbis pesados das parcelas anteriores da série. Leon luta contra novas criaturas horríveis infestadas por uma nova ameaça chamada Las Plagas e enfrenta um grupo agressivo de inimigos, incluindo aldeões controlados pela mente que estão ligados a Los Illuminados, o misterioso culto que está por trás do sequestro.
                 </p>
                 <p>
                     Requisitos Mínimos:<br>
-                    Sistema Operacional: Windows XP/ Vista®, Windows 7, Windows 8<br>
-                    Processador: Intel® Core™ 2 Duo 2.4 Ghz or better, AMD Athlon™ X2 2.8 Ghz or better<br>
-                    Placa de vídeo: NVIDIA® GeForce® 8800GTS or better, ATI Radeon™ HD 4850 or better<br>
-                    Memória RAM: 2 GB RAM<br>
-                    HD Livre: 15 GB<br>
-                    Versão do Directx: DirectX 9<br>
+                    Sistema Operacional: Windows XP, Vista, 7, 8<br>
+                    Processador: Intel Core 2 Duo 2.4 Ghz, AMD Athlon X2 2.8 Ghz<br>
+                    Memória RAM: 2 GB<br>
+                    Placa de vídeo: NVIDIA GeForce 8800GTS, ATI Radeon HD 4850<br>
+                    Directx: 9<br>
+                    Espaço em Disco: 15 GB<br>
                 </p>
                 <h2>Como Instalar:</h2>
                 <p>
@@ -43,12 +52,15 @@
                     2)Abra o arquivo .iso dentro da pasta extraída e siga o passo a passo do instalador.<br>
 
                 </p>
-                <h2>GAMEPLAY:</h2>
+                <br><br>
+                <h2>COMO INSTALAR + GAMEPLAY:</h2>
+                <br>
                 <div class="video">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/AI2YEyFMuhY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
+                <br>
                 <div class="download">
-                    <a href="https://drive.google.com/file/d/1f1xZ-F_zfE6TtY6ChdVdAZZ17rYX0Hre/view?usp=sharing" target="_blank">DOWNLOAD JOGO</a>
+                    <a href="https://stfly.me/uIkarq" target="_blank">BAIXAR JOGO</a>
                 </div>
             </div>
             <br><br>
@@ -57,6 +69,7 @@
                 </div>
         </div>
     </main>
+    <script src="../script/muda-tela.js"></script>
     <footer>
         <p>
             Criado por &copy;Uncensored Games para o mundo

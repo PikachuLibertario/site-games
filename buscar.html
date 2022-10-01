@@ -5,50 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
-    <title>Pesquisar Jogos</title>
+    <title>Pesquisar</title>
     <style>
-        .conteiner{
-            font-family:Arial, Helvetica, sans-serif;
-            box-sizing: border-box;
-            width: auto;
-            padding: 10px;
-            margin: auto;
-            text-align: center;
-            color: black;
-        }
-        .conteiner h2{
-            font-size: 30px;
-            background-color: rgb(187, 187, 0)
-        }
-        #jogos li{
-            display: none; /*esconde o elemento*/
-        }
-        #jogos a{
-            color: white;
-            font-size: 24px;
-            text-decoration: none;
-            display: block;
-            padding: 5px;
-            transition-duration: .3s;
-        }
-        #jogos a:hover{
-            text-decoration: underline;
-        }
-        #jogos li{
-            list-style-type: none;
-        }
-        #pesquisa{
-            width: auto;
-            font-size: 20px;
-            padding: 10px;
-            border: 3px solid black;
-        }
-        #botao{
-            font-size: 20px;
-            padding: 5px;
-            cursor: pointer;
-        }
     </style>
 </head>
 <body>
@@ -56,17 +17,24 @@
         <h1>Uncensored Games</h1>
         <p>Os melhores jogos para computador em primeira mão!</p>
     </header>
-    <nav class="menu">
-        <a href="index.html" target="_self">Página Inicial</a>
-        <a href="categorias.html" target="_self" rel="next">Categorias</a>
-        <a href="https://www.youtube.com/channel/UCOAk3Cy1CuYaDvdmrvV97iA" target="_blank">Youtube</a>
-    </nav>
+    <span id="hamb" class="material-symbols-outlined" onclick="ClickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="index.html" target="_self">Home</a></li>
+                <li><a href="categorias.html" target="_self" rel="next">Categorias</a></li>
+                <li><a href="https://www.youtube.com/channel/UCOAk3Cy1CuYaDvdmrvV97iA" target="_blank">Youtube</a></li>
+                <li><a href="pergunta.html" target="_self">Perguntas</a></li>
+                <li><a href="buscar.html" target="_self">Pesquisar</a></li>
+            </ul>
+        </menu>
     <main>
         <nav class="conteiner">
-            <h2>Buscar Jogos no Site</h2><br>
-            <input type="text" id="pesquisa" placeholder="Digite o nome do jogo..." title="Digite um jogo do site">
+            <h2>Buscar Jogos</h2><br>
+            <input type="text" id="pesquisa" placeholder="digite o nome do jogo..." title="Digite um jogo do site" autofocus>
+            <br>
             <input type="submit" id="botao" value="Buscar" onclick="pesquisar()">
-            <br><br>
+            <input type="reset" id="botao" value="Limpar" onclick="limpar()">
+            <br><br><br>
             <ul id="jogos">
                 <li><a href="games-pages/medal-honor.html" target="_self">Medal Of Honor 2010</a></li>
                 <li><a href="games-pages/hitman-absolution.html" target="_self">Hitman Absolution</a></li>
@@ -133,6 +101,12 @@
             </ul>
         </nav>
     </main>
+    <div id="nao-achado">
+        <p>
+            Jogo não encontrado -_-
+        </p>
+    </div>
     <script type="text/javascript" src="script/script.js"></script>
+    <script src="script/muda-tela.js"></script>
 </body>
 </html>

@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
     <link rel="shortcut icon" href="../logo.ico" type="image/x-icon">
     <title>Dead Island</title>
 </head>
@@ -13,18 +15,25 @@
         <h1>Uncensored Games</h1>
         <p>Os melhores jogos para computador em primeira mão!</p>
     </header>
-    <nav class="menu">
-        <a href="../index.html" target="_self">Página Inicial</a>
-        <a href="../categorias.html" target="_self" rel="next">Categorias</a>
-        <a href="https://www.youtube.com/channel/UCOAk3Cy1CuYaDvdmrvV97iA" target="_blank">Youtube</a>
-    </nav>
+    <span id="hamb" class="material-symbols-outlined" onclick="ClickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="../index.html" target="_self">Home</a></li>
+                <li><a href="../categorias.html" target="_self">Categorias</a></li>
+                <li><a href="https://www.youtube.com/channel/UCOAk3Cy1CuYaDvdmrvV97iA" target="_blank">Youtube</a></li>
+                <li><a href="../pergunta.html" target="_self">Perguntas</a></li>
+                <li><a href="../buscar.html" target="_self">Pesquisar</a></li>
+            </ul>
+        </menu>
     <main>
         <div class="games">
             <div id="f-03">
-                <h2>DEAD ISLAND</h2>
                 <picture>
                     <img src="https://raw.githubusercontent.com/PikachuLibertario/site-games-imagens/main/dead-island.png" alt="dead-island">
                 </picture>
+                <br><br>
+                <h2>DEAD ISLAND</h2>
+                <br>
                 <p>
                     Dead Island é um jogo de ação, para Windows, cheio de zumbis por todos os lados. O game se passa na ilha fictícia de Banoi, um paraíso tropical localizado no Pacífico Sul, que abriga o luxuoso hotel de férias Royal Palms Resort. Uma misteriosa infestação zumbi toma conta da ilha e o paraíso logo se transforma no mais assustador dos cenários.
                     Os sobreviventes lutam com qualquer coisa que encontram pelo caminho e unem suas forças para tentar descobrir a causa da tragédia e escapar de uma vez por todas da ilha. O gênero correto para encaixar o software seria o FPP (First Person Perspective). Já que as armas de fogo são escassas, ele não é exatamente um shooter. Este título é de ação, mas empresta elementos do RPG.
@@ -32,21 +41,24 @@
                 <p>
                     Requisitos Mínimos:<br>
                     Sistema Operacional: Windows 7<br>
-                    Processador: Intel Core 2 Duo | AMD Athlon X2<br>
+                    Processador: Intel Core 2 Duo, AMD Athlon X2<br>
+                    Memória RAM: 2 GB<br>
                     Placa de vídeo: Nvidia ou AMD 256Mb<br>
-                    Memória RAM: 2 GB RAM<br>
-                    HD Livre: 7 GB<br>
-                    Versão do Directx: DirectX 9<br>
+                    Directx: 9<br>
+                    Espaço em Disco: 7 GB<br>
                 </p>
                 <p>
                     OBS: abra o jogo sempre no modo compatibilidade Windows 7.
                 </p>
-                <h2>COMO INSTALAR:</h2>
+                <br><br>
+                <h2>COMO INSTALAR + GAMEPLAY:</h2>
+                <br>
                 <div class="video">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/jIKdsQ_z6YU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
+                <br>
                 <div class="download">
-                    <a href="https://www.mediafire.com/file/zbi8t37tpgfc8jk/dead-island.rar/file" target="_blank">DOWNLOAD</a>
+                    <a href="https://stfly.me/eGM3Y7T" target="_blank">BAIXAR JOGO</a>
                 </div>
             </div>
             <br><br>
@@ -55,6 +67,7 @@
                 </div>
         </div>
     </main>
+    <script src="../script/muda-tela.js"></script>
     <footer>
         <p>
             Criado por &copy;Uncensored Games para o mundo

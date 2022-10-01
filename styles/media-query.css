@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){
+    span#hamb{
+        display: none;
+    }
+
+    menu{
+        display: block;
+    }
+    menu a{
+        /*background-color: gray;*/
+        background-color: black;
+    }
+
+    menu li{
+        display:inline-block;
+    }
+    #itens{
+        /*background-color: gray;*/
+        background-color: black;
+        border-top: 1px solid green;
+        border-bottom: 1px solid green;
+    }
+
+    main{
+        display: 768px;
+    }
+    #recentes{
+        text-align: left;
+    }
+    #recentes img{
+        margin: 10px;
+        width: 200px;
+        height: 150px;
+        transition-duration: .3s;
+    }
+    #recentes img:hover{
+        border-radius: 20px;
+        transform: translate(-1px,-10px);
+        transition: transform .3s;
+        box-shadow: 5px 5px 10px black;
+    }
+
+    .conteiner h2{
+        font-size: 26px;
+    }
+    .categorias img{
+        width: 400px;
+        height: 200px;
+        margin-bottom: 25px;
+        
+    }
+    .games img{
+        height: 250px;
+        width: 400px;
+        margin-bottom: 20px;
+    }
+}

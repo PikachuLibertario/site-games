@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
     <link rel="shortcut icon" href="../logo.ico" type="image/x-icon">
     <title>Life Is Strange 1</title>
 </head>
@@ -13,36 +15,46 @@
         <h1>Uncensored Games</h1>
         <p>Os melhores jogos para computador em primeira mão!</p>
     </header>
-    <nav class="menu">
-        <a href="../index.html" target="_self">Página Inicial</a>
-        <a href="../categorias.html" target="_self" rel="next">Categorias</a>
-        <a href="https://www.youtube.com/channel/UCOAk3Cy1CuYaDvdmrvV97iA" target="_blank">Youtube</a>
-    </nav>
+    <span id="hamb" class="material-symbols-outlined" onclick="ClickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="../index.html" target="_self">Home</a></li>
+                <li><a href="../categorias.html" target="_self">Categorias</a></li>
+                <li><a href="https://www.youtube.com/channel/UCOAk3Cy1CuYaDvdmrvV97iA" target="_blank">Youtube</a></li>
+                <li><a href="../pergunta.html" target="_self">Perguntas</a></li>
+                <li><a href="../buscar.html" target="_self">Pesquisar</a></li>
+            </ul>
+        </menu>
     <main>
         <div class="games">
             <div id="j-03">
-                <h2>LIFE IS STRANGE 1</h2>
                 <picture>
                     <img src="https://raw.githubusercontent.com/PikachuLibertario/site-games-imagens/main/life-is-strange.png" alt="life-is-strange">
                 </picture>
+                <br><br>
+                <h2>LIFE IS STRANGE 1</h2>
+                <br>
                 <p>
                     Life is Strange é uma premiada aventura em episódios, aclamada pela crítica, que permite ao jogador voltar no tempo e alterar passado, presente e futuro. Siga a história de Max Caulfield, uma estudante de fotografia que descobre ser capaz de rebobinar o tempo ao salvar a melhor amiga, Chloe Price. As duas logo começam a investigar o desaparecimento misterioso da amiga e também estudante Rachel Amber, e desvendam o lado sombrio da vida em Arcadia Bay.
                 </p>
                 <p>
                     Requisitos Mínimos:<br>
-                    SO:  Windows Vista ou superior<br>
+                    Sistema Operacional: Windows Vista<br>
                     Processador: Dual Core 2.0GHz<br>
-                    Memória RAM: 4 GB RAM<br>
-                    Placa de vídeo: ATI ou NVidia card w/ 512 MB RAM<br>
-                    DirectX: 9.0c<br>
-                    Espaço livre em disco: 9 GB<br>
+                    Memória RAM: 4 GB<br>
+                    Placa de vídeo: ATI, NVidia 512 MB RAM<br>
+                    DirectX: 9<br>
+                    Espaço em Disco: 9 GB<br>
                 </p>
-                <h2>GAMEPLAY:</h2>
+                <br><br>
+                <h2>COMO INSTALAR + GAMEPLAY:</h2>
+                <br>
                 <div class="video">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/8ZL3OnLCeQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
+                <br>
                 <div class="download">
-                    <a href="https://www.mediafire.com/file/coow05dokgfd48v/life-is-strange.rar/file" target="_blank">DOWNLOAD</a>
+                    <a href="https://stfly.me/AOBX3" target="_blank">BAIXAR JOGO</a>
                 </div>
             </div>
             <br><br>
@@ -51,6 +63,7 @@
                 </div>
         </div>
     </main>
+    <script src="../script/muda-tela.js"></script>
     <footer>
         <p>
             Criado por &copy;Uncensored Games para o mundo

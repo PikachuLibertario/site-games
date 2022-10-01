@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
     <link rel="shortcut icon" href="../logo.ico" type="image/x-icon">
     <title>Little Misfortune</title>
 </head>
@@ -13,29 +15,39 @@
         <h1>Uncensored Games</h1>
         <p>Os melhores jogos para computador em primeira mão!</p>
     </header>
-    <nav class="menu">
-        <a href="../index.html" target="_self">Página Inicial</a>
-        <a href="../categorias.html" target="_self" rel="next">Categorias</a>
-        <a href="https://www.youtube.com/channel/UCOAk3Cy1CuYaDvdmrvV97iA" target="_blank">Youtube</a>
-    </nav>
+    <span id="hamb" class="material-symbols-outlined" onclick="ClickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="../index.html" target="_self">Home</a></li>
+                <li><a href="../categorias.html" target="_self">Categorias</a></li>
+                <li><a href="https://www.youtube.com/channel/UCOAk3Cy1CuYaDvdmrvV97iA" target="_blank">Youtube</a></li>
+                <li><a href="../pergunta.html" target="_self">Perguntas</a></li>
+                <li><a href="../buscar.html" target="_self">Pesquisar</a></li>
+            </ul>
+        </menu>
     <main>
         <div class="games">
             <div id="d-01">
-                <h2>LITTLE MISFORTUNE</h2>
                 <picture>
                     <img src="https://raw.githubusercontent.com/PikachuLibertario/site-games-imagens/main/little-misfortune.png" alt="little misfortune">
                 </picture>
+                <br><br>
+                <h2>LITTLE MISFORTUNE</h2>
+                <br>
                 <p>
                     Little Misfortune é uma história interativa, focada na exploração e nos personagens, doces e sombrios, onde suas escolhas têm consequências.
                     Estrelando Misfortune Ramirez Hernandez, uma menina imaginativa de 8 anos, que busca o prêmio da Felicidade Eterna, como um presente para sua mamãe. Liderados por seu novo amigo, Mr. Voice, eles se aventuram na floresta, onde mistérios são desvendados e um pouco de azar se desenrola.
                     Compartilhando o mesmo universo com o videogame cult Fran Bow, criado pela visionária dupla de desenvolvedores Killmonday Games.
                 </p>
+                <br><br>
                 <h2>COMO INSTALAR + GAMEPLAY:</h2>
+                <br>
                 <div class="video">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/16JUtadUsdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
+                <br>
                 <div class="download">
-                    <a href="https://mega.nz/file/FQ0w2RJJ#HaeJwpEWhzCZvEbhu2ic4QXtTPGhdfQerfKkGjsIkEo" target="_blank">DOWNLOAD</a>
+                    <a href="https://stfly.me/yiBHP" target="_blank">BAIXAR JOGO</a>
                 </div>
             </div>
             <br><br>
@@ -44,6 +56,7 @@
                 </div>
         </div>
     </main>
+    <script src="../script/muda-tela.js"></script>
     <footer>
         <p>
             Criado por &copy;Uncensored Games para o mundo

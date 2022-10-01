@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="shortcut icon" href="../logo.ico" type="image/x-icon">
     <title>Amnesia Rebirth</title>
 </head>
@@ -13,35 +15,45 @@
         <h1>Uncensored Games</h1>
         <p>Os melhores jogos para computador em primeira mão!</p>
     </header>
-    <nav class="menu">
-        <a href="../index.html" target="_self">Página Inicial</a>
-        <a href="../categorias.html" target="_self" rel="next">Categorias</a>
-        <a href="https://www.youtube.com/channel/UCOAk3Cy1CuYaDvdmrvV97iA" target="_blank">Youtube</a>
-    </nav>
+    <span id="hamb" class="material-symbols-outlined" onclick="ClickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="../index.html" target="_self">Home</a></li>
+                <li><a href="../categorias.html" target="_self">Categorias</a></li>
+                <li><a href="https://www.youtube.com/channel/UCOAk3Cy1CuYaDvdmrvV97iA" target="_blank">Youtube</a></li>
+                <li><a href="../pergunta.html" target="_self">Perguntas</a></li>
+                <li><a href="../buscar.html" target="_self">Pesquisar</a></li>
+            </ul>
+        </menu>
     <main>
         <div class="games">
             <div id="b-01">
-                <h2>AMNESIA REBIRTH</h2>
                 <picture>
                     <img src="https://raw.githubusercontent.com/PikachuLibertario/site-games-imagens/main/amnesia-rebirth.png" alt="amnesia rebirth">
                 </picture>
+                <br><br>
+                <h2>AMNESIA REBIRTH</h2>
+                <br>
                 <p>
-                    Amnesia: Rebirth é um videogame de terror de sobrevivência de 2020 desenvolvido e publicado pela Frictional Games. Foi lançado para Microsoft Windows, Linux e PlayStation 4 em 20 de outubro de 2020. É a terceira parcela da franquia e serve como uma sequência de Amnesia: The Dark Descent. O jogo recebeu críticas geralmente favoráveis após o lançamento.
+                    Amnesia: Rebirth é um jogo de terror com elementos de sobrevivência, lançado em 2020, desenvolvido e publicado pela Frictional Games. Foi lançado para Microsoft Windows, Linux e PlayStation 4 em 20 de outubro de 2020. É a terceira obra da franquia e serve como uma sequência de Amnesia: The Dark Descent. O jogo recebeu críticas favoráveis após o lançamento.
                 </p>
                 <p>
                     Requisitos Mínimos:<br>
-                    SO: Windows 7 / 8 / 10, 64-bits<br>
-                    Processador: Core i3 / AMD FX 2.4Ghz<br>
-                    Memória: 4 GB de RAM<br>
-                    Placa de vídeo: OpenGL 4.0, Nvidia GTX 460 / AMD Radeon HD 5750 / Intel HD 630<br>
-                    Armazenamento: 35 GB de espaço disponível<br>
+                    Sistema Operacional: Windows 7, 8, 10, 64-bits<br>
+                    Processador: Core i3, AMD FX 2.4Ghz<br>
+                    Memória RAM: 4 GB<br>
+                    Placa de vídeo: OpenGL 4.0, Nvidia GTX 460, AMD Radeon HD 5750, Intel HD 630<br>
+                    Espaço em Disco: 35 GB<br>
                 </p>
+                <br><br>
                 <h2>COMO INSTALAR + GAMEPLAY:</h2>
+                <br>
                 <div class="video">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/GFRLU2mVNyw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
+                <br>
                 <div class="download">
-                    <a href="https://mega.nz/file/kIkGXQYK#J9OfMEn1LlxifVLNCoqhFVxr8ONcPn0CsTasGTIp7Pc" target="_blank">DOWNLOAD</a>
+                    <a href="https://stfly.me/KFUxL" target="_blank">BAIXAR JOGO</a>
                 </div>
             </div>
             <br><br>
@@ -50,6 +62,7 @@
                 </div>
         </div>
     </main>
+    <script src="../script/muda-tela.js"></script>
     <footer>
         <p>
             Criado por &copy;Uncensored Games para o mundo

@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="shortcut icon" href="../logo.ico" type="image/x-icon">
     <title>Bioshock 1</title>
 </head>
@@ -13,36 +15,46 @@
         <h1>Uncensored Games</h1>
         <p>Os melhores jogos para computador em primeira mão!</p>
     </header>
-    <nav class="menu">
-        <a href="../index.html" target="_self">Página Inicial</a>
-        <a href="../categorias.html" target="_self" rel="next">Categorias</a>
-        <a href="https://www.youtube.com/channel/UCOAk3Cy1CuYaDvdmrvV97iA" target="_blank">Youtube</a>
-    </nav>
+    <span id="hamb" class="material-symbols-outlined" onclick="ClickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="../index.html" target="_self">Home</a></li>
+                <li><a href="../categorias.html" target="_self">Categorias</a></li>
+                <li><a href="https://www.youtube.com/channel/UCOAk3Cy1CuYaDvdmrvV97iA" target="_blank">Youtube</a></li>
+                <li><a href="../pergunta.html" target="_self">Perguntas</a></li>
+                <li><a href="../buscar.html" target="_self">Pesquisar</a></li>
+            </ul>
+        </menu>
     <main>
         <div class="games">
             <div id="a-15">
-                <h2>BIOSHOCK 1</h2>
                 <picture>
                     <img src="https://raw.githubusercontent.com/PikachuLibertario/site-games-imagens/main/bioshock-1.png" alt="bioshock-1">
                 </picture>
+                <br><br>
+                <h2>BIOSHOCK 1</h2>
+                <br>
                 <p>
                     BioShock é um shooter diferente de todos que você já jogou, carregado de armas e táticas nunca vistas. Você terá um arsenal completo à sua disposição, de simples revólveres a lançadores de granadas e lançadores de produtos químicos, mas também será forçado a modificar geneticamente seu DNA para criar uma arma ainda mais mortal: você. Plasmídeos injetáveis dão a você poderes super humanos: exploda correntes elétricas na água para eletrocutar vários inimigos, ou congele-os e os elimine com o balanço de uma chave inglesa.
                     Nenhum encontro acontece da mesma forma, e não há dois jogadores que joguem o jogo da mesma maneira.
                 </p>
                 <p>
                     Requisitos Minímos:<br>
-                    Operating System: Windows XP (with Service Pack 2) or Windows Vista<br>
-                    CPU: Intel single-core Pentium 4 processor at 2.4GHz<br>
-                    RAM: 1 GB<br>
-                    Video Card: Direct X 9.0c compliant video card with 128MB RAM and Pixel Shader 3.0 (NVIDIA 6600 or better/ATI X1300 or better, excluding ATI X1550)<br>
-                    Hard Drive Space: 8GB<br>
+                    Sistema Operacional: Windows XP (com Service Pack 2), Windows Vista<br>
+                    Processador: Intel single-core 2.4GHz Pentium 4<br>
+                    Memória RAM: 1 GB<br>
+                    Placa de Vídeo: DirectX 9.0, 128MB RAM, Pixel Shader 3.0, NVIDIA 6600, ATI X1300<br>
+                    Espaço em Disco: 8GB<br>
                 </p>
-                <h2>COMO INSTALAR:</h2>
+                <br><br>
+                <h2>COMO INSTALAR + GAMEPLAY:</h2>
+                <br>
                 <div class="video">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/hM8wF5S020k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
+                <br>
                 <div class="download">
-                    <a href="https://drive.google.com/file/d/1cpyGUI1xXHUjgkqECWzynmAQvML2de1a/view?usp=sharing" target="_blank">DOWNLOAD</a>
+                    <a href="https://stfly.me/VtXWaJTq1" target="_blank">BAIXAR JOGO</a>
                 </div>
             </div>
             <br><br>
@@ -51,6 +63,7 @@
                 </div>
         </div>
     </main>
+    <script src="../script/muda-tela.js"></script>
     <footer>
         <p>
             Criado por &copy;Uncensored Games para o mundo
