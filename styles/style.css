@@ -76,7 +76,7 @@ menu > ul{
     /*background-color: black;*/
     background-color: gray;
     text-align: center;
-    padding: 2px;
+    padding: 5px;
     font-size: 18px;
     margin-bottom: 10px;
 }
@@ -91,13 +91,13 @@ menu a{
     border-radius: 5px;
 }
 #itens li{
-    margin-bottom: 2px;
+    margin-bottom: 5px;
 }
 #itens a{
     text-decoration: none;
     /*color: black;*/
     color: white;
-    padding: 5px;
+    padding: 10px;
     transition-duration: .3s;
 }
 #itens a:hover{

@@ -22,9 +22,13 @@
         border-top: 1px solid green;
         border-bottom: 1px solid green;
         font-size: 14px;
+        padding: 2px;
     }
     #itens a{
         padding: 8px;
+    }
+    #itens li{
+        margin-bottom: 2px;
     }
 
     main{
