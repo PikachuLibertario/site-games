@@ -76,4 +76,7 @@
     #aviso p{
         text-align: justify;
     }
+    header > p{
+        font-size: 24px;
+    }
 }
