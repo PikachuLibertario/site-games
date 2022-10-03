@@ -59,9 +59,21 @@
         margin-bottom: 25px;
         
     }
+    .games h2{
+        text-align: center;
+    }
+    .games p{
+        text-align: justify;
+    }
     .games img{
         height: 250px;
         width: 400px;
         margin-bottom: 20px;
+    }
+    #aviso h2{
+        text-align: center;
+    }
+    #aviso p{
+        text-align: justify;
     }
 }
