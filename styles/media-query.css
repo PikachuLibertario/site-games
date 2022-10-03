@@ -21,6 +21,10 @@
         background-color: black;
         border-top: 1px solid green;
         border-bottom: 1px solid green;
+        font-size: 14px;
+    }
+    #itens a{
+        padding: 8px;
     }
 
     main{
@@ -28,6 +32,10 @@
     }
     #recentes{
         text-align: left;
+    }
+    #recentes h2{
+        font-size: 16px;
+        font-family: var(--fonte-2);
     }
     #recentes img{
         margin: 10px;
@@ -43,7 +51,7 @@
     }
 
     .conteiner h2{
-        font-size: 26px;
+        font-size: 22px;
     }
     .categorias img{
         width: 400px;
