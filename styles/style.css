@@ -23,9 +23,6 @@ header{
     background-position: center;
     background-size: cover;
     padding: 20px;
-    /*background-repeat: no-repeat;*/
-    /*height: 200px;*/
-    /*color: black;*/
 }
 header > h1{
     margin-top: 20px;
@@ -35,8 +32,6 @@ header > h1{
     margin-bottom: 5px;
     text-align: center;
     color: green;
-    /*background-color: rgba(255, 255, 255, 0.800);*/
-    /*background-color: darkgreen;*/
 }
 header > p{
    font-size: 18px;
@@ -44,9 +39,6 @@ header > p{
    padding: 5px;
    text-align: center;
    color: white;
-   /*margin-bottom: 30px;*/
-   /*background-color: rgba(255, 255, 255, 0.800);*/
-   /*background-color: darkgreen;*/
 }
 span#hamb{
     background-color: black;
@@ -57,8 +49,6 @@ span#hamb{
     text-align: center;
     padding: 10px;
     cursor: pointer; /*muda o ponteiro do mouse para mão*/
-    /*background-color: gray;*/
-    /*color: black;*/
 }
 span#hamb:hover{
     color: white;
@@ -71,9 +61,6 @@ menu > ul{
     list-style-type: none; /*tira as bolinhas*/
 }
 #itens{
-    /*background-color: rgba(255, 255, 255, 0.865);*/
-    /*background-color: rgba(0, 0, 0, 0.400);*/
-    /*background-color: black;*/
     background-color: gray;
     text-align: center;
     padding: 5px;
@@ -86,7 +73,6 @@ menu a{
     padding: 5px;
     text-align: center;
     text-decoration: none;
-    /*background-color: gray;*/
     background-color:black;
     border-radius: 5px;
 }
@@ -95,7 +81,6 @@ menu a{
 }
 #itens a{
     text-decoration: none;
-    /*color: black;*/
     color: white;
     padding: 10px;
     transition-duration: .3s;
@@ -152,15 +137,6 @@ main{
     width: 90%;
     height: 90%;
 }
-
-img{
-    /*configuração para imagem se ajustar conforme a tela*/
-    /*max-height: 90%;*/
-    /*max-width: 90%;*/
-    /*padding: 5px;*/
-    /*margin: 15px;*/
-    /*transition-duration: .1s;*/
-}
 .categorias{
     text-align: center;
 }
@@ -172,16 +148,12 @@ img{
 }
 .categorias img:hover{
     border-radius: 20px;
-        transform: translate(-1px,-10px);
-        transition: transform .3s;
-        box-shadow: 5px 5px 10px black;
+    box-shadow: 5px 5px 10px black;
+
+    transform: translate(-1px,-10px);
+    transition: transform .3s;
 }
 .games{
-    /*text-align: justify;*/
-    /*margin: auto;*/
-    /*font-family: var(--fonte-1);*/
-    /*font-family: 'Courier New', Courier, monospace;*/
-    /*font-size: 18px;*/
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -226,8 +198,8 @@ img{
     text-decoration: none;
     font-size: 16px;
     margin: 10px;
-    transition-duration: .3s;
     color: black;
+    transition-duration: .3s;
 }
 .download:hover{
     background-color: black;
@@ -240,8 +212,6 @@ img{
     padding: 10px;
 }
 #aviso{
-    /*font-family: var(--fonte-2);*/
-    /*font-family: 'Courier New', Courier, monospace;*/
     font-family: Arial, Helvetica, sans-serif;
 }
 #aviso p{

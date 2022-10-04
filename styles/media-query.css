@@ -17,7 +17,6 @@
         display:inline-block;
     }
     #itens{
-        /*background-color: gray;*/
         background-color: black;
         border-top: 1px solid green;
         border-bottom: 1px solid green;
@@ -49,9 +48,9 @@
     }
     #recentes img:hover{
         border-radius: 20px;
+        box-shadow: 5px 5px 10px black;
         transform: translate(-1px,-10px);
         transition: transform .3s;
-        box-shadow: 5px 5px 10px black;
     }
 
     .conteiner h2{
