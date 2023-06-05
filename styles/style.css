@@ -183,7 +183,8 @@ main{
     text-decoration: none;
 }
 .bottom a:hover{
-    color: white;
+    /*color: white;*/
+    text-decoration: underline;
 }
 .download{
     text-align: center;
@@ -205,7 +206,7 @@ main{
     background-color: black;
 }
 .download a:hover{
-    font-weight: bolder;
+    /*font-weight: bolder;*/
     color: green;
 }
 .tutorial{
